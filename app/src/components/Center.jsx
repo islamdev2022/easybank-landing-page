@@ -1,10 +1,10 @@
 import Cards from "./Cards";
 const Center = () => {
-    return ( <div className="bg-gray-200 w-full h-full">
-<h1 className="text-4xl pl-28 pt-20">Why choose Esaybank?</h1>
-<p className="font-semibold text-gray-400 w-6/12 pt-8 pl-28 ">We leverage Open Banking to turn your bank account into your financial hub. Control 
+    return ( <div className="bg-gray-200 w-full h-full pl-16 ">
+<h1 className="text-4xl pt-16 pr-12">Why choose Esaybank?</h1>
+<p className="font-semibold text-gray-400 lg:w-6/12 sm:w-1/2 pt-8 pr-20 sm:pl-2">We leverage Open Banking to turn your bank account into your financial hub. Control 
   your finances like never before.</p>
-  <div className="flex">
+  <div className="block lg:flex w-full">
 <Cards image={"./public/images/icon-online.svg"} 
        title="Online Banking" 
        text="Our modern web and mobile applications allow you to keep track of your finances 

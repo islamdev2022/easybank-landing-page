@@ -1,28 +1,29 @@
 const Top = () => {
-    return ( 
-    <div className="bg-gray-100 h-full p-32 ">
-    <div className="flex mt-24 bg-gray-100 h-96 w-96">
-        <div>
-             <h1 className="text-5xl size-96 h-36">Next Genration digital banking</h1>
-        <p className="font-semibold text-gray-400 w-96  ">Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.
-</p>
-<button className="bg-gradient-to-r from-hsl-button to-hsl-button-to text-white font-bold py-2 px-4 rounded-full relative top-12 hover:opacity-85">
-          Request Invite
-        </button>
+    return (
+        <div className="bg-gray-100 h-full px-4 py-8 lg:p-32">
+            <Right />
+            <div className="flex flex-col lg:flex-row items-center lg:items-start mt-12 bg-gray-100">
+                <div className="text-center lg:text-left">
+                    <h1 className="text-3xl lg:text-5xl">Next Generation Digital Banking</h1>
+                    <p className="font-semibold text-gray-400 mt-4 lg:w-96">Take your financial life online. Your Easybank account will be a one-stop-shop 
+for spending, saving, budgeting, investing, and much more.</p>
+                    <button className="bg-gradient-to-r from-hsl-button to-hsl-button-to text-white font-bold py-2 px-4 rounded-full mt-4 hover:opacity-85">
+                        Request Invite
+                    </button>
+                </div>
+               
+            </div>
         </div>
-<Right></Right>
-    </div>
-    </div> );
+    );
 }
 
 const Right = () => {
-    return ( <div className="bg-[url('./public/images/bg-intro-desktop.svg')] h-full bg-cover bg-center absolute right-0 top-20">
-    <img src="./public/images/image-mockups.png" width={700} alt="" className="relative bottom-20 "/>
-
-    </div> );
+    return (
+        <div className="mt-4 lg:mt-0 lg:absolute lg:right-0 lg:top-20 w-full lg:w-auto">
+            
+            <img src="./public/images/image-mockups.png" className=" z-10 max-w-xs lg:max-w lg lg:max-w-lg xl:max-w-xl mx-auto lg:relative lg:bottom-20" alt="" />
+        </div>
+    );
 }
- 
 
- 
 export default Top;
