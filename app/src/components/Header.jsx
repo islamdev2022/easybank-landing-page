@@ -17,7 +17,7 @@ const Header = () => {
                             <li className="menu-item">Careers</li>
                         </ul>
                     </div>
-                    <button className="md:hidden text-gray-400 font-semibold " onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                    <button className="lg:hidden text-gray-400 font-semibold " onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         Menu
                     </button>
                 </div>

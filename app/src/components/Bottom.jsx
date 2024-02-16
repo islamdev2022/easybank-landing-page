@@ -1,6 +1,6 @@
 const Bottom = () => {
-    return (<div className= "bg-slate-100 h-full">
-        <h1 className="text-4xl h-10 w-2/3 relative left-24 top-7">Latest Articles</h1>
+    return (<div className= "bg-slate-100 h-full p-20">
+        <h1 className="text-4xl h-10 w-fit  relative top-7 left-12">Latest Articles</h1>
         <div className="block lg:flex ">
     <CardsBottom image="./public/images/image-currency.jpg" author="By Claire Robinson" title="Receive money in any currency with no fess" 
     text="The world is getting smaller and we’re becoming more mobile. So why should you be 
@@ -18,10 +18,10 @@ const Bottom = () => {
 }
 const CardsBottom = (({image, author, title, text}) => {
     return (
-        <div className="mt-16 ml-20 relative right-8 bg-white rounded-xl hover:scale-105 cursor-pointer overflow-hidden">
-            <img src={image} alt="" className="rounded-t-xl max-w-full h-auto" />
+        <div className="mt-16 ml-20 sm:ml-10 relative right-8 bg-white rounded-xl hover:scale-105 cursor-pointer overflow-hidden">
+            <img src={image} alt="" className="rounded-t-xl max-w-full h-auto w-full" />
             <div className="p-6">
-                <p className="text-gray-400 mt-8 font-semibold text-sm">{author}</p>
+                <p className="text-gray-400 mt-8 font-semibold text-sm w-fit">{author}</p>
                 <h2 className="text-xl font-semibold text-gray-700 mt-4 hover:text-green-400 duration-700">{title}</h2>
                 <p className="font-semibold text-gray-400 mt-4">{text}</p>
             </div>

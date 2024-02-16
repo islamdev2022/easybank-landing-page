@@ -1,9 +1,12 @@
 import Cards from "./Cards";
 const Center = () => {
-    return ( <div className="bg-gray-200 w-full h-full pl-16 ">
-<h1 className="text-4xl pt-16 pr-12">Why choose Esaybank?</h1>
-<p className="font-semibold text-gray-400 lg:w-6/12 sm:w-1/2 pt-8 pr-20 sm:pl-2">We leverage Open Banking to turn your bank account into your financial hub. Control 
+    return ( <div className="bg-gray-200 w-full h-full pl-16 pb-20 md:table md:ml-auto md:mr-auto">
+       <div className="text-center lg:text-left">
+              <h1 className="text-4xl pt-16 pr-12">Why choose Esaybank?</h1>
+<p className="font-semibold text-gray-400 lg:w-6/12 sm:w-1/2 pt-8 pr-16 md:text-center ">We leverage Open Banking to turn your bank account into your financial hub. Control 
   your finances like never before.</p>
+       </div>
+
   <div className="block lg:flex w-full">
 <Cards image={"./public/images/icon-online.svg"} 
        title="Online Banking" 
