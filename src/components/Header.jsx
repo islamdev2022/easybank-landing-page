@@ -7,7 +7,7 @@ const Header = () => {
         <div className="fixed top-0 left-0 w-full z-10 bg-white">
             <div className="flex justify-between items-center px-10 py-0">
                 <div className="flex gap-4 md:gap-64">
-                    <img src="./public/images/Screenshot 2024-02-14 141349.png" alt="" width="250" height="300"/>
+                    <img src="/images/Screenshot 2024-02-14 141349.png" alt="" width="250" height="300"/>
                     <div className="hidden md:flex gap-12 items-center">
                         <ul className="flex text-gray-400 cursor-pointer font-semibold gap-12 items-center">
                             <li className="menu-item">Home</li>

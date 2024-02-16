@@ -6,13 +6,13 @@ const Footer = () => {
            
             <div className="flex flex-col md:flex-row lg:gap-80 ">
                 <div className="flex flex-col items-center md:items-start">
-                    <img src="./public/images/Screenshot_2024-02-14_141349-removebg-preview.png" alt="" className="lg:w-80 md:w-auto mt-4 md:mt-0 md:ml-16" />
+                    <img src="/images/Screenshot_2024-02-14_141349-removebg-preview.png" alt="" className="lg:w-80 md:w-auto mt-4 md:mt-0 md:ml-16" />
                     <div className="flex gap-3 mt-4 mb-8 lg:ml-20 md:mt-8 cursor-pointer">
-                        <img src="./public/images/icon-facebook.svg" alt="" />
-                        <img src="./public/images/icon-instagram.svg" alt="" />
-                        <img src="./public/images/icon-pinterest.svg" alt="" />
-                        <img src="./public/images/icon-twitter.svg" alt="" />
-                        <img src="./public/images/icon-youtube.svg" alt="" />
+                        <img src="/images/icon-facebook.svg" alt="" />
+                        <img src="/images/icon-instagram.svg" alt="" />
+                        <img src="/images/icon-pinterest.svg" alt="" />
+                        <img src="/images/icon-twitter.svg" alt="" />
+                        <img src="/images/icon-youtube.svg" alt="" />
                     </div>
                 </div>
 

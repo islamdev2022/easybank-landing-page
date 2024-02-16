@@ -21,7 +21,7 @@ const Right = () => {
     return (
         <div className="mt-4 lg:mt-0 lg:absolute lg:right-0 lg:top-20 w-full lg:w-auto">
             
-            <img src="./public/images/image-mockups.png" className=" max-w-xs lg:max-w lg lg:max-w-lg xl:max-w-xl mx-auto lg:relative lg:bottom-20" alt="" />
+            <img src="/images/image-mockups.png" className=" max-w-xs lg:max-w lg lg:max-w-lg xl:max-w-xl mx-auto lg:relative lg:bottom-20" alt="" />
         </div>
     );
 }
